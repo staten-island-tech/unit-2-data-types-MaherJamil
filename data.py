@@ -55,9 +55,48 @@ elif temp == 68:
 else:
     print('cold') """
 
-even_or_odd = input("Even or Odd?")
-if even_or_odd == "2,4,6,8":
-    print("Even")
-else:
+""" even_or_odd = input("Even or Odd?")
+if even_or_odd == "1":
     print("Odd")
+elif even_or_odd == "2":
+    print("Even")
+elif even_or_odd == "3":
+    print("Odd")
+elif even_or_odd == "4":
+    print("Even")
+elif even_or_odd == "5":
+    print("Odd")
+elif even_or_odd == "6":
+    print("Even")
+elif even_or_odd == "7":
+    print("Odd")
+elif even_or_odd == "8":
+    print("Even")
+elif even_or_odd == "9":
+    print("Odd")
+elif even_or_odd == "10":
+    print("Even") """
 
+""" x= "0%,15%,20%,25%"
+print(f"{x}")
+Tip = input("How much would you liek to tip?")
+if Tip == "0%":
+    print("The service was bad")
+elif Tip == "15%":
+    print("The service was okay")
+elif Tip == "20%":
+    print("The service was good")
+elif Tip == "25%":
+    print("The service was great") """
+
+Factor = input("Factor the number:")
+if Factor == "4":
+    print("1,2,4")
+elif Factor == "6":
+    print("1,2,3,6")
+elif Factor == "10":
+    print("1,2,5,10")
+elif Factor == "16":
+    print("1,2,,4,8,16")
+elif Factor == "28":
+    print("1,2,4,7,14,28")
