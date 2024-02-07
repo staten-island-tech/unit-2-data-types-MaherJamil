@@ -74,3 +74,40 @@ elif Tip == "20%":
     print("The service was good")
 elif Tip == "25%":
     print("The service was great") """
+
+#Challenge 3
+""" function = int(input("Enter a number: "))
+print(f"{function}, 1")
+if function%2 == 0:
+    print("2")
+if function%3 == 0:
+    print("3")
+if function%4 == 0:
+    print("4")
+if function%5 == 0:
+    print("5")
+if function%6 == 0:
+    print("6")
+if function%7 == 0:
+    print("7")
+if function%8 == 0:
+    print("8")
+if function%9 == 0:
+    print("9")
+if function%10 == 0:
+    print("10")
+if function%11 == 0:
+    print("11")
+if function%12 == 0:
+    print("12")
+if function%13 == 0:
+    print("13")
+if function%14 == 0:
+    print("14")
+if function%15 == 0:
+    print("15") """
+
+#Challenge 4
+number = int(input("Enter a number: "))
+number2 = int(input("Enter another number: "))
+
