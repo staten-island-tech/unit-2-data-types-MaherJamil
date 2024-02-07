@@ -55,11 +55,22 @@ elif temp == 68:
 else:
     print('cold') """
 
-#Challenger 1
+#Challenge 1
 """ even_or_odd = int(input("Enter a number: "))
 if (even_or_odd % 2) == 0:
    print("Even")
 else:
    print("Odd") """
 
-
+#Challenge 2
+""" x= "0%,15%,20%,25%"
+print(f"{x}")
+Tip = input("How much would you liek to tip?")
+if Tip == "0%":
+    print("The service was bad")
+elif Tip == "15%":
+    print("The service was okay")
+elif Tip == "20%":
+    print("The service was good")
+elif Tip == "25%":
+    print("The service was great") """
