@@ -42,8 +42,8 @@ print(z) """
 if day_of_week == "Friday":
     print("correct")
 else:
-    print("incorrect") """
-
+    print("incorrect")
+ """
 """ x = "test"
 print(f"hello {x}") """
 
@@ -55,9 +55,11 @@ elif temp == 68:
 else:
     print('cold') """
 
-even_or_odd = input("Even or Odd?")
-if even_or_odd == "2,4,6,8":
-    print("Even")
+#Challenger 1
+""" even_or_odd = int(input("Enter a number: "))
+if (even_or_odd % 2) == 0:
+   print("Even")
 else:
-    print("Odd")
+   print("Odd") """
+
 
