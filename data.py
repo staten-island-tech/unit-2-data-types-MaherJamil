@@ -91,6 +91,17 @@ print(f"The GCF of {number} and {number2} is {gcf}") """
 
 #Calculator
 Bill = float(input("Enter amount: "))
-x="0%, 15%, 20%, 25%"
-print(X)
-Tip = input
+x ="0%, 15%, 20%, 25%"
+print(x)
+Tip = input("Select Tip:")
+if Tip == "0%":
+    print(Bill)
+elif Tip == "15%":
+    Bill = Bill*1.15
+    print(f"Amount: {Bill}")
+elif Tip == "20%":
+    Bill = Bill*1.2
+    print(f"Amount: {Bill}")
+elif Tip == "25%":
+    Bill = Bill*1.25
+    print(f"Amount: {Bill}")
