@@ -90,7 +90,7 @@ gcf = gcd(number, number2)
 print(f"The GCF of {number} and {number2} is {gcf}") """
 
 #Calculator
-Bill = float(input("Enter amount: "))
+"""Bill = float(input("Enter amount: "))
 x ="0%, 15%, 20%, 25%"
 print(x)
 Tip = input("Select Tip:")
@@ -104,4 +104,13 @@ elif Tip == "20%":
     print(f"Amount: {Bill}")
 elif Tip == "25%":
     Bill = Bill*1.25
-    print(f"Amount: {Bill}")
+    print(f"Amount: {Bill}") """
+
+#Challenge 4.5
+x=4
+y=5
+def check_if_4(x,y):
+    if(x == 4 and y == 4):
+        print("both are 4")
+    else:
+        print("none are 4")
