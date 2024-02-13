@@ -1,5 +1,5 @@
-import math
-from math import *
+""" import math
+from math import * """
 """ #Data Types
 #Numbers 1,2,3
 def add(x,y):
@@ -113,4 +113,8 @@ def check_if_4(x,y):
     if(x == 4 and y == 4):
         print("both are 4")
     else:
-        print("none are 4")
+        print("1 or 0 are 4")
+#check_if_4(x,y)
+        
+print(factors[-1])
+
