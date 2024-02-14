@@ -107,14 +107,10 @@ elif Tip == "25%":
     print(f"Amount: {Bill}") """
 
 #Challenge 4.5
-x=4
-y=5
-def check_if_4(x,y):
-    if(x == 4 and y == 4):
-        print("both are 4")
-    else:
-        print("1 or 0 are 4")
-#check_if_4(x,y)
-        
-print(factors[-1])
-
+def gcf(x, y):
+    while y:
+        x, y = y, x % y
+    return x
+number = int(input("Enter a number: "))
+number2 = int(input("Enter another number: "))
+print(f"The gcf of {number} and {number2} is {gcf}")
