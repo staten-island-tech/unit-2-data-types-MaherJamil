@@ -106,7 +106,7 @@ elif Tip == "25%":
     Bill = Bill*1.25
     print(f"Amount: {Bill}") """
 
-#Challenge 4.5
+#Challenge 4 w/o import math
 def gcf(x, y):
     while y:
         x, y = y, x % y
