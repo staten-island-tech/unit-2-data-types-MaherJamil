@@ -113,4 +113,5 @@ def gcf(x, y):
     return x
 number = int(input("Enter a number: "))
 number2 = int(input("Enter another number: "))
-print(f"The gcf of {number} and {number2} is {gcf}")
+gcf_result = gcf(number, number2)
+print(f"The gcf is {gcf_result}")
