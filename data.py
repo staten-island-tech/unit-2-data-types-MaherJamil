@@ -107,12 +107,16 @@ elif Tip == "25%":
     print(f"Amount: {Bill}") """
 
 #Challenge 4 w/o import math
-number = int(input("Enter a number:"))
-for i in range(1, number + 1):
-    if number % i == 0:
+number1 = int(input("Enter a number:"))
+for i in range(1, number1 + 1):
+    if number1 % i == 0:
         print(i)
 
 number2 = int(input("Enter another number:"))
-for i in range(1, number2 + 1):
-    if number2 % i == 0:
-        print(i)
+for j in range(1, number2 + 1):
+    if number2 % j == 0:
+        print(j)
+
+def GCF(number1,number2):
+    values = ["{i}, {j}"]
+    print(values)
