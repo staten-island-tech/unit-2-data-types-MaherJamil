@@ -107,11 +107,13 @@ elif Tip == "25%":
     print(f"Amount: {Bill}") """
 
 #Challenge 4 w/o import math
-def gcf(x, y):
-    while y:
-        x, y = y, x % y
-    return x
-number = int(input("Enter a number: "))
-number2 = int(input("Enter another number: "))
-gcf_result = gcf(number, number2)
-print(f"The gcf is {gcf_result}")
+number = int(input("Enter a number:"))
+for i in range(1, number + 1):
+    if number % i == 0:
+        print(i)
+
+number2 = int(input("Enter another number:"))
+for i in range(1, number2 + 1):
+    if number2 % i == 0:
+        print(i)
+
