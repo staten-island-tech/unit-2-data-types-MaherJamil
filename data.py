@@ -116,4 +116,3 @@ number2 = int(input("Enter another number:"))
 for i in range(1, number2 + 1):
     if number2 % i == 0:
         print(i)
-
